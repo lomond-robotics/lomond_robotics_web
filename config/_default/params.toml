@@ -1,25 +1,33 @@
 logo = "images/lomond-logo.png"
 home = "Home"
 menufixed = true
- 
+description = "Custom automation, hardware integration, AI implementation, and engineering prototyping from Lomond Robotics."
+author = "Lomond Robotics"
+
+footerDescription = "Custom automation, hardware integration, AI implementation, and engineering prototyping for teams with practical technical problems to solve."
+footerServiceTitle = "Services"
+footerQuicklinkTitle = "Links"
+footerAboutTitle = "Lomond Robotics"
+footerContactTitle = "Start a project"
+footerContactText = "Tell us what you need measured, moved, connected, automated, or prototyped."
+footerContactButton = "Contact"
+
 [hero]
 enable = true
-heading = "Automation and Robotics for Real‑World Operations"
-description = "We design and deploy reliable robotic and automation systems for labs and factories."
-videoThumb = "images/overview.png" # ensure this file exists at static/images/overview.png
+heading = "Automation, hardware integration, and practical AI tools"
+description = "Lomond Robotics designs custom technical solutions for companies that need devices, prototypes, measurement systems, robotics, and automation that fit the real job."
+videoThumb = "images/overview.png"
 videoURL = ""
-btnText = "Contact"
-btnURL = "/contact/"
+button = true
+btnText = "Discuss a project"
+btnURL = "contact/"
 
-footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerServiceTitle = "Service"
-footerQuicklinkTitle = "Quicklinks"
-footerAboutTitle = "About"
-footerSubscribeTitle = "Subscribe"
+[aboutSm]
+enable = true
+title = "Engineering support for unusual automation problems"
+description = "I help companies turn rough technical requirements into working systems: automation workflows, hardware integrations, prototype devices, AI-assisted processes, and custom tools built around the constraints of the site, team, and equipment."
 
 [subscription]
 enable = false
 mailchimp_form_action = ""
 mailchimp_form_name = ""
-
-

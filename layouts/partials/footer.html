@@ -12,7 +12,7 @@
                     <ul>
                         {{ range .Site.Menus.service }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -22,13 +22,13 @@
                     <ul>
                         {{ range .Site.Menus.quicklink }}
                         <li>
-                            <a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>{{ .Site.Params.footerSubscribeTitle }}</h3>
+                    <h3>{{ .Site.Params.footerContactTitle }}</h3>
                     {{ with site.Params.subscription }}
                     {{ if .enable }}
                     <form class="subscribe-form"
@@ -39,6 +39,9 @@
                         </div>
                         <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
                     </form>
+                    {{ else }}
+                    {{ with site.Params.footerContactText }}<p>{{ . }}</p>{{ end }}
+                    <a class="btn btn-main-sm" href="{{ `contact/` | absLangURL }}">{{ site.Params.footerContactButton }}</a>
                     {{ end }}
                     {{ end }}
                 </div>
@@ -46,11 +49,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <h5>Copyright 2021. All rights reserved.</h5>
-        <h6>Design and Developed by Themefisher
-            <br>Get More
-            <a href="https://themefisher.com/hugo-themes/" target="_blank">Themefisher</a>
-        </h6>
+        <h5>Copyright {{ now.Format "2006" }} Lomond Robotics. All rights reserved.</h5>
     </div>
 </footer>
 {{ "<!-- end footer -->" | safeHTML }}

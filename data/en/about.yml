@@ -1,17 +1,16 @@
 enable  : true
 item    :
   - positionRight : false
-    image : images/about/about-1.jpg
-    title : Engineering reliable automation
+    image : images/overview.png
+    title : Built around the problem, not a catalogue
     description : >
-      We build dependable automation and robotics solutions for labs and
-      manufacturing, focusing on safety, quality, and maintainability.
+      Lomond Robotics works on practical engineering problems where a standard
+      service is not enough: automating repetitive work, connecting machines,
+      capturing measurements, or building a custom device for a narrow task.
 
   - positionRight : true
-    image : images/about/about-2.jpg
-    title : From concept to deployment
+    image : images/lomond-logo.png
+    title : From advice to working hardware
     description : >
-      Mechanical design, electronics, control software, and on-site
-      commissioning — handled end‑to‑end by our team.
-
-
+      Support can start with consultation and continue into design,
+      prototyping, hardware integration, software, testing, and deployment.

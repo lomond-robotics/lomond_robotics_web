@@ -1,30 +1,32 @@
-enable  : false
+enable  : true
 topTitle: HOW WE WORK
-title   : Our Process
-subtitle: Pragmatic, transparent, and outcome‑driven.
+title   : A practical route from idea to implementation
+subtitle: Clear scoping first, then prototypes, tests, and integration.
 item    :
   - number  : 1
     icon    : tf-ion-ios-search-strong
-    title   : Discovery
+    title   : Scope
     description : >
-      Requirements, constraints, and success criteria defined with your team.
+      Define the problem, constraints, environment, and what success should look
+      like before committing to a build.
 
   - number  : 2
     icon    : tf-ion-ios-gear-outline
-    title   : Design & Prototype
+    title   : Design and Prototype
     description : >
-      Rapid iterations in CAD and firmware with early test rigs.
+      Sketch the solution, choose hardware and software, and build enough to
+      prove the important parts.
 
   - number  : 3
     icon    : tf-ion-ios-flask-outline
-    title   : Validate
+    title   : Test
     description : >
-      Bench tests and pilot deployment to de‑risk integration.
+      Check measurement quality, reliability, safety, usability, and integration
+      risks before wider use.
 
   - number  : 4
     icon    : tf-ion-ios-checkmark-outline
-    title   : Deploy
+    title   : Implement
     description : >
-      Commissioning, documentation, and handover for reliable operation.
-
-
+      Install, document, train, and refine the solution so it can be used by the
+      people who need it.

@@ -1,61 +1,49 @@
 [[nav]]
-name = "about"
+name = "About"
 url = "about/"
 weight = 2
 
 [[nav]]
-name = "service"
+name = "Services"
 url = "service/"
 weight = 3
 
 [[nav]]
-name = "portfolio"
-url = "portfolio/"
-weight = 4
-
-[[nav]]
-name = "blog"
-url = "blog/"
-weight = 5
-
-[[nav]]
-name = "contact"
+name = "Contact"
 url = "contact/"
-weight = 6
-
-[[service]]
-name = "graphicdesign"
-url = "service/"
-weight = 1
-
-[[service]]
-name = "webdesign"
-url = "service/"
-weight = 2
-
-[[service]]
-name = "webdevelopment"
-url = "service/"
-weight = 3
-
-[[quicklink]]
-name = "partners"
-url = "about/"
-weight = 1
-
-[[quicklink]]
-name = "about"
-url = "about/"
-weight = 2
-
-[[quicklink]]
-name = "faqs"
-url = "about/"
-weight = 3
-
-[[quicklink]]
-name = "badges"
-url = "about/"
 weight = 4
 
+[[service]]
+name = "Automation"
+url = "service/"
+weight = 1
 
+[[service]]
+name = "Hardware integration"
+url = "service/"
+weight = 2
+
+[[service]]
+name = "AI implementation"
+url = "service/"
+weight = 3
+
+[[service]]
+name = "Engineering prototypes"
+url = "service/"
+weight = 4
+
+[[quicklink]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[quicklink]]
+name = "Services"
+url = "service/"
+weight = 2
+
+[[quicklink]]
+name = "Contact"
+url = "contact/"
+weight = 3

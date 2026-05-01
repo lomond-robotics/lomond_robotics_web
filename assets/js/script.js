@@ -273,7 +273,7 @@
 			position: nottingham,
 			map: map,
 			icon: pinIcon,
-			title: 'navigator'
+			title: 'Lomond Robotics'
 		});
 	}
 

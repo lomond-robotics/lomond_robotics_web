@@ -5,16 +5,13 @@
 {{ with .Site.Params.author }} <meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
 
-<title>{{ .Title }}</title>
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
 {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
   
-<!-- theme meta -->
-<meta name="theme-name" content="navigator-hugo" />
-
 {{ "<!-- Favicon -->" | safeHTML }}
-<link rel="shortcut icon" type="image/x-icon" href="{{ `images/favicon.ico` | absURL }}" />
+<link rel="shortcut icon" type="image/png" href="{{ `images/logo.png` | absURL }}" />
 
 {{"<!-- Stylesheets -->" | safeHTML}}
 {{ "<!-- Themefisher Icon font -->" | safeHTML }}

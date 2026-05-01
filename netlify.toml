@@ -3,8 +3,8 @@
   command = "hugo --minify --gc"
   
 [build.environment]
-  HUGO_VERSION = "0.87.0"
-  HUGO_BASEURL = "/"
+  HUGO_VERSION = "0.152.2"
+  HUGO_BASEURL = "https://michaeljirasek.com/lomondrobotics/"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.

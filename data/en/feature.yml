@@ -1,21 +1,37 @@
 enable  : true
 item  :
-  - icon  : tf-ion-ios-cog-outline
-    title : Industrial Automation
+  - icon  : tf-ion-ios-cog
+    title : Automation Solutions
     description : >
-      Design and integration of control systems, PLCs, and robotics to automate
-      manufacturing and lab workflows.
+      Practical systems that reduce manual work, improve repeatability, or connect
+      existing equipment into a more reliable workflow.
 
-  - icon  : tf-ion-ios-gear-outline
-    title : Custom Robotics
+  - icon  : tf-ion-ios-settings
+    title : Hardware Integration
     description : >
-      Bespoke robotic mechanisms, motion control, and embedded firmware tailored
-      to your application.
+      Sensors, actuators, controllers, embedded systems, test rigs, and interfaces
+      brought together around the equipment you already use.
 
-  - icon  : tf-ion-ios-printer-outline
-    title : 3D Printing
+  - icon  : tf-ion-ios-flask-outline
+    title : Engineering Prototypes
     description : >
-      Prototyping and small-batch production using FDM and resin technologies,
-      from CAD to finished parts.
+      One-off devices, measurement fixtures, proof-of-concept builds, and
+      prototypes for unusual engineering requirements.
 
+  - icon  : tf-ion-ios-lightbulb-outline
+    title : AI Tool Implementation
+    description : >
+      Consultation and implementation support for applying AI tools inside company
+      processes without losing sight of reliability, data, and adoption.
 
+  - icon  : tf-ion-ios-pulse
+    title : Measurement Devices
+    description : >
+      Custom devices and data capture setups for teams that need to measure,
+      monitor, log, or trigger something specific.
+
+  - icon  : tf-ion-wrench
+    title : On-Demand Solutions
+    description : >
+      Technical advice, feasibility work, and build support when the problem does
+      not fit a standard product or off-the-shelf service.

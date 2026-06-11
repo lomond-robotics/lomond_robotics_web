@@ -4,7 +4,7 @@ Static Hugo website for Lomond Robotics.
 
 Live site:
 
-`https://michaeljirasek.com/lomondrobotics/`
+`https://lomondrobotics.com/`
 
 ## What The Site Covers
 
@@ -61,9 +61,11 @@ The workflow:
 The configured Hugo `baseURL` is:
 
 ```toml
-baseURL = "https://michaeljirasek.com/lomondrobotics/"
+baseURL = "https://lomondrobotics.com/"
 ```
 
-That means the generated links are intended for the `/lomondrobotics/` path.
+That means the generated links are intended for the root of `lomondrobotics.com`.
 
-For deployment to work, the GitHub repository must have Pages configured to use GitHub Actions as the source, and the push must land on the `main` branch.
+For deployment to work, the GitHub repository must have Pages configured to use GitHub Actions as the source, the custom domain set to `lomondrobotics.com`, and the push must land on the `main` branch.
+
+For `lomondrobotics.com`, GitHub Pages also needs the domain configured in the repository settings and DNS records at the domain registrar. The apex domain should point at GitHub Pages, and `www` can point at the repository owner's GitHub Pages domain if `www.lomondrobotics.com` should also work.

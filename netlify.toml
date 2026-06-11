@@ -4,7 +4,7 @@
   
 [build.environment]
   HUGO_VERSION = "0.152.2"
-  HUGO_BASEURL = "https://michaeljirasek.com/lomondrobotics/"
+  HUGO_BASEURL = "https://lomondrobotics.com/"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.

@@ -1,17 +1,18 @@
 [[nav]]
-name = "About"
-url = "about/"
-weight = 2
-
-[[nav]]
-name = "Services"
-url = "service/"
-weight = 3
-
-[[nav]]
 name = "Contact"
 url = "contact/"
 weight = 4
+
+# Hidden for now. Uncomment these nav items when the top-level pages are useful again.
+# [[nav]]
+# name = "About"
+# url = "about/"
+# weight = 2
+#
+# [[nav]]
+# name = "Services"
+# url = "service/"
+# weight = 3
 
 [[service]]
 name = "Automation"

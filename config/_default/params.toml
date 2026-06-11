@@ -1,4 +1,5 @@
-logo = "images/lomond-logo.png"
+logo = "images/new-simpler-logo.png"
+logoInverse = "images/new-simpler-logo-inverse.png"
 home = "Home"
 menufixed = true
 description = "Custom automation, hardware integration, AI implementation, and engineering prototyping from Lomond Robotics."

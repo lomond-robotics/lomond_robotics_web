@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Lomond Robotics icon">
+  <rect width="512" height="512" rx="72" fill="#07131f"/>
+  <g transform="translate(44 34) scale(1.4)" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#fff" stroke="none" d="M67 264 H179 V315 H67 Z"/>
+    <path fill="#fff" stroke="none" d="M74 200 L119 188 L165 259 H105 Z"/>
+    <path d="M81 159 L154 94"/>
+    <path d="M154 94 H233 L249 52"/>
+    <circle cx="80" cy="159" r="36" fill="#07131f"/>
+    <circle cx="154" cy="94" r="25" fill="#07131f"/>
+    <path d="M154 65 V42 L188 16 H223"/>
+    <path d="M156 99 H236 L253 59"/>
+  </g>
+</svg>

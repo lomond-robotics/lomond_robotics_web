@@ -1828,3 +1828,192 @@ a:focus, a:hover {
 .blog-single img{
   height: fit-content;;
 }
+
+/*=================================================================
+  Warm technical palette overrides
+==================================================================*/
+:root {
+  --lr-bg: #1f1f1d;
+  --lr-panel: #2a2a27;
+  --lr-panel-soft: #3a3934;
+  --lr-line: #d8cbb8;
+  --lr-paper: #f4efe7;
+  --lr-paper-muted: #d9d2c7;
+  --lr-ink: #2a2926;
+  --lr-muted: #706a60;
+  --lr-accent: #c9822b;
+}
+
+body {
+  background: var(--lr-paper);
+  color: var(--lr-ink);
+}
+
+p,
+.services .service-block p,
+.about-2 p,
+.contact-short-info li,
+.footer-bottom h5,
+.footer-bottom h6,
+.footer-bottom p {
+  color: var(--lr-muted);
+}
+
+a:focus,
+a:hover,
+.about h4,
+.video-player .play-icon i,
+.services .service-block i,
+.client-service-list li i,
+.team-skills .progress-block .progress .progress-bar,
+.top-footer li a:hover,
+.footer-bottom a,
+.pagination li.active a,
+.contact-details .contact-short-info li i,
+.contact-meta-block i,
+.service-2 .service-item:hover i {
+  color: var(--lr-accent);
+}
+
+.btn-main,
+.btn-main-sm,
+#preloader,
+.service-list .block,
+.team-skills .progress-block .progress .progress-bar,
+.pagination li.active a,
+.contact-form .btn-main,
+.contact-form .btn-main-sm {
+  background: var(--lr-accent);
+  background-image: linear-gradient(100deg, var(--lr-panel-soft), var(--lr-accent));
+  border-color: var(--lr-accent);
+  color: var(--lr-paper);
+}
+
+.btn-main:hover,
+.btn-main-sm:hover,
+.contact-form .btn-main:hover,
+.contact-form .btn-main-sm:hover {
+  color: var(--lr-paper);
+  background-image: linear-gradient(100deg, var(--lr-bg), var(--lr-accent));
+}
+
+.btn-transparent {
+  border-color: var(--lr-line);
+  color: var(--lr-line);
+}
+
+.btn-transparent:hover {
+  border-color: var(--lr-accent);
+  color: var(--lr-paper);
+  background: var(--lr-accent);
+}
+
+.hero-area,
+.pricing-table,
+.top-footer,
+.page-title {
+  background: var(--lr-bg);
+}
+
+.hero-area .block,
+.hero-area-video .block,
+.pricing-table .title h2,
+.top-footer h3 {
+  color: var(--lr-line);
+}
+
+.hero-area .block p,
+.pricing-table .price p,
+.top-footer p,
+.top-footer li a {
+  color: var(--lr-paper-muted);
+}
+
+.navigation .dropdown-menu,
+.footer-bottom {
+  background: var(--lr-panel);
+  border-color: var(--lr-panel-soft);
+}
+
+.about,
+.team-member,
+.service-2 .service-item,
+.contact-form,
+.contact-details,
+.single-page-header {
+  background: var(--lr-paper);
+}
+
+.about-2,
+.services,
+.portfolio-filter,
+.development-steps .step-1,
+.clients,
+.testimonial,
+.blog,
+.contact-us {
+  background: #eee7dc;
+}
+
+.section-title h2,
+.about h2,
+.services .service-block h3,
+.service-2 .service-item h4,
+.team-member h3,
+.contact-details h3,
+.single-page-header h2,
+.pagination li a {
+  color: var(--lr-ink);
+}
+
+.services .service-block i {
+  background: linear-gradient(100deg, var(--lr-line), var(--lr-accent));
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.service-2 .service-item {
+  border-color: var(--lr-paper-muted);
+}
+
+.service-2 .service-item .count {
+  color: #e6ddd0;
+}
+
+.development-steps .step-2 {
+  background: var(--lr-panel-soft);
+}
+
+.development-steps .step-3 {
+  background: var(--lr-panel);
+}
+
+.development-steps .step-4 {
+  background: var(--lr-bg);
+}
+
+.development-steps .step-2 h4,
+.development-steps .step-2 p,
+.development-steps .step-3 h4,
+.development-steps .step-3 p,
+.development-steps .step-4 h4,
+.development-steps .step-4 p {
+  color: var(--lr-line);
+}
+
+.portfolio-filter button.active,
+.portfolio-filter button:hover,
+.portfolio-block .caption .search-icon,
+.social-icon li a:hover,
+.contact-submit,
+.comment-reply-form input:focus,
+.comment-reply-form textarea:focus {
+  border-color: var(--lr-accent);
+}
+
+.portfolio-block .caption .search-icon,
+.social-icon li a:hover,
+.contact-submit {
+  background: var(--lr-accent);
+  color: var(--lr-paper);
+}

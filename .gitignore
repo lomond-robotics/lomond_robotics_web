@@ -2,3 +2,5 @@ resources/_gen/
 public/
 .hugo_build.lock
 .hugo-server.*.log
+old/
+static/images/old/

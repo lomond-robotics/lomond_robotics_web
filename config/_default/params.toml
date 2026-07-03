@@ -2,21 +2,21 @@ logo = "images/new-simpler-logo.png"
 logoInverse = "images/new-simpler-logo-inverse.png"
 home = "Home"
 menufixed = true
-description = "Custom automation, hardware integration, AI implementation, and engineering prototyping from Lomond Robotics."
+description = "Hardware implementation, chemistry and biochemistry lab automation, data processing, and on-demand instrument setup from Lomond Robotics."
 author = "Lomond Robotics"
 
-footerDescription = "Custom automation, hardware integration, AI implementation, and engineering prototyping for teams with practical technical problems to solve."
+footerDescription = "Hardware implementation, lab automation, data processing, and turnkey instrument supply for teams with practical technical problems to solve."
 footerServiceTitle = "Services"
 footerQuicklinkTitle = "Links"
 footerAboutTitle = "Lomond Robotics"
 footerContactTitle = "Start a project"
-footerContactText = "Tell us what you need measured, moved, connected, automated, or prototyped."
+footerContactText = "Tell us what you need automated, integrated, measured, or supplied."
 footerContactButton = "Contact"
 
 [hero]
 enable = true
-heading = "Automation, hardware integration, and practical AI tools"
-description = "Lomond Robotics designs custom technical solutions for companies that need devices, prototypes, measurement systems, robotics, and automation that fit the real job."
+heading = "Hardware, lab automation, and data processing — built to your spec"
+description = "Lomond Robotics supplies, integrates, and builds custom systems for chemistry and biochemistry labs, engineering teams, and anyone who needs a complete working setup rather than a catalogue part."
 videoThumb = "images/overview.png"
 videoURL = ""
 button = true
@@ -25,10 +25,15 @@ btnURL = "contact/"
 
 [aboutSm]
 enable = true
-title = "Engineering support for unusual automation problems"
-description = "I help companies turn rough technical requirements into working systems: automation workflows, hardware integrations, prototype devices, AI-assisted processes, and custom tools built around the constraints of the site, team, and equipment."
+title = "One contact from problem to working system"
+description = "I work with labs and engineering teams on hardware implementation, chemistry and biochemistry tool automation, data processing pipelines, and on-demand instrument supply — including full turnkey setups where you specify what you need and I deliver it ready to use."
 
 [subscription]
 enable = false
 mailchimp_form_action = ""
 mailchimp_form_name = ""
+
+# Contact form — set contact_form_action to your Formspree endpoint once registered:
+# https://formspree.io/f/YOUR_FORM_ID
+# Or point to your self-hosted server: https://yourserver.com/contact
+contact_form_action = "https://formspree.io/f/xnjkokkk"

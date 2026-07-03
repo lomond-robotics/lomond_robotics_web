@@ -5,12 +5,7 @@ item    :
     title : Built around the problem, not a catalogue
     description : >
       Lomond Robotics works on practical engineering problems where a standard
-      service is not enough: automating repetitive work, connecting machines,
-      capturing measurements, or building a custom device for a narrow task.
-
-  - positionRight : true
-    image : images/new-simpler-logo.png
-    title : From advice to working hardware
-    description : >
-      Support can start with consultation and continue into design,
-      prototyping, hardware integration, software, testing, and deployment.
+      service is not enough: automating chemistry and biochemistry workflows,
+      integrating lab instruments, building custom measurement hardware,
+      processing data, or supplying and setting up a complete working system
+      from scratch.

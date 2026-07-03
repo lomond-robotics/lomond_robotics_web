@@ -1,37 +1,41 @@
 enable  : true
 item  :
-  - icon  : tf-ion-ios-cog
-    title : Automation Solutions
-    description : >
-      Practical systems that reduce manual work, improve repeatability, or connect
-      existing equipment into a more reliable workflow.
-
   - icon  : tf-ion-ios-settings
-    title : Hardware Integration
+    title : Hardware Implementation
     description : >
-      Sensors, actuators, controllers, embedded systems, test rigs, and interfaces
-      brought together around the equipment you already use.
+      Design and build of custom hardware: sensors, actuators, controllers,
+      embedded systems, and instrument interfaces built around your specific
+      equipment and environment.
 
   - icon  : tf-ion-ios-flask-outline
-    title : Engineering Prototypes
+    title : Chemistry & Biochemistry Automation
     description : >
-      One-off devices, measurement fixtures, proof-of-concept builds, and
-      prototypes for unusual engineering requirements.
+      Automation of lab workflows including liquid handling, sample processing,
+      instrument control, and repetitive assay steps — reducing manual effort
+      and improving reproducibility.
+
+  - icon  : tf-ion-ios-pulse
+    title : Data Processing & Analysis
+    description : >
+      Custom pipelines for capturing, cleaning, storing, and visualising
+      measurement data from instruments, sensors, or lab equipment.
+
+  - icon  : tf-ion-ios-cog
+    title : On-Demand Instrument Setup
+    description : >
+      Full turnkey supply: sourcing, configuring, integrating, and handing over
+      a complete working instrument or system — so you get one point of contact
+      from spec to sign-off.
 
   - icon  : tf-ion-ios-lightbulb-outline
     title : AI Tool Implementation
     description : >
-      Consultation and implementation support for applying AI tools inside company
-      processes without losing sight of reliability, data, and adoption.
-
-  - icon  : tf-ion-ios-pulse
-    title : Measurement Devices
-    description : >
-      Custom devices and data capture setups for teams that need to measure,
-      monitor, log, or trigger something specific.
+      Practical AI integration into lab and engineering processes — data
+      interpretation, workflow assistance, and decision support without
+      sacrificing reliability or auditability.
 
   - icon  : tf-ion-wrench
-    title : On-Demand Solutions
+    title : Engineering Prototypes
     description : >
-      Technical advice, feasibility work, and build support when the problem does
-      not fit a standard product or off-the-shelf service.
+      One-off devices, proof-of-concept builds, measurement fixtures, and
+      custom hardware for requirements that do not fit any off-the-shelf product.

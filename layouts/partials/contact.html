@@ -23,13 +23,15 @@
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
-                <form id="contact-form" method="post" action="{{ site.Params.contact_form_action }}" role="form">
+                <form id="contact-form" method="POST" action="{{ site.Params.contact_form_action }}" role="form">
+                    <input type="hidden" name="_subject" value="New enquiry — Lomond Robotics">
+
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="Your Email" class="form-control" name="_replyto" id="email" required>
                     </div>
 
                     <div class="form-group">
@@ -37,15 +39,7 @@
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-                    </div>
-
-                    <div id="mail-success" class="success">
-                        Thank you. Your message has been sent.
-                    </div>
-
-                    <div id="mail-fail" class="error">
-                        Sorry, something went wrong. Please try again later.
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
                     </div>
 
                     <div id="cf-submit">

@@ -3,8 +3,6 @@ title: "Contact"
 date: 2025-01-01
 ---
 
-Use this page as the project brief starting point.
+Tell me what you are working on and I will get back to you within one working day.
 
-Please include what you are trying to automate, measure, integrate, prototype, or improve; what equipment or process is already in place; and what a successful result would look like.
-
-For now, add the preferred email address, phone number, or enquiry form details here before publishing.
+The more detail the better: what you are trying to automate, measure, integrate, or build; what equipment or process is already in place; and what a working result would look like. No need to have it fully scoped — rough requirements are a fine starting point.

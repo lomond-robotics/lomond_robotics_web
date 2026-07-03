@@ -5,7 +5,7 @@
             <div class="col-12 col-md-8">
                 {{ with .Site.Params.contact.title }}<h2 class="text-center mb-2">{{.}}</h2>{{ end }}
                 {{ with .Site.Params.contact.subtitle }}<p class="text-center mb-4">{{.}}</p>{{ end }}
-                <form id="contact-form" method="POST" action="{{ site.Params.contact_form_action }}" role="form">
+                <form id="contact-form" method="POST" action="https://formspree.io/f/xnjkokkk" role="form">
                     <input type="hidden" name="_subject" value="New enquiry — Lomond Robotics">
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>

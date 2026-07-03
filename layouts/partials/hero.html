@@ -2,20 +2,8 @@
 {{ "<!-- Hero Area -->" | safeHTML }}
 <section class="hero-area">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="video-player">
-                    <img class="img-fluid rounded" src="{{ with .Site.Params.hero.videoThumb }}{{.| absURL }}{{ end }}" alt="hero-image">
-                    {{ with .Site.Params.hero.videoURL }}
-                    {{ if ne . "" }}
-                    <a class="play-icon" href="javascript:void(0)">
-                        <i class="tf-ion-play" data-video="{{ . }}?autoplay=1"></i>
-                    </a>
-                    {{ end }}
-                    {{ end }}
-                </div>
-            </div>
-            <div class="col-md-6">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
                 <div class="block">
                     {{ with .Site.Params.hero.heading }}
                         <h2>{{ . }}</h2>

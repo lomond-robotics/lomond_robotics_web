@@ -33,7 +33,9 @@ enable = false
 mailchimp_form_action = ""
 mailchimp_form_name = ""
 
-# Contact form — set contact_form_action to your Formspree endpoint once registered:
-# https://formspree.io/f/YOUR_FORM_ID
-# Or point to your self-hosted server: https://yourserver.com/contact
 contact_form_action = "https://formspree.io/f/xnjkokkk"
+
+[contact]
+enable = true
+title = "Start a project"
+subtitle = "Describe what you need and I'll get back to you."

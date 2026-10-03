@@ -9,9 +9,11 @@
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="{{ "" | absLangURL }}">
-                        <img src="{{ (.Site.Params.logoInverse | default .Site.Params.logo) | absURL }}" alt="{{ .Site.Title }}">
+                        <img class="logo-dark" src="{{ (.Site.Params.logoInverse | default .Site.Params.logo) | absURL }}" alt="{{ .Site.Title }}">
+                        <img class="logo-light" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
                     </a>
-                    <div class="d-flex align-items-center">
+                    <div class="navigation-controls d-flex align-items-center order-lg-3">
+                        <button class="theme-toggle" type="button" id="theme-toggle" hidden>Light mode</button>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                             aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="tf-ion-android-menu"></span>

@@ -1,38 +1,39 @@
 enable  : true
 item  :
-  - icon  : tf-ion-ios-settings
-    title : Hardware Implementation
+  - icon  : tf-ion-ios-lightbulb-outline
+    title : AI-Harness Implementation
     description : >
-      Design and build of custom hardware: sensors, actuators, controllers,
-      embedded systems, and instrument interfaces built around your specific
-      equipment and environment.
+      Purpose-built scaffolding around AI models for lab and engineering use:
+      tool use, data interpretation, decision support, and evaluation,
+      wired into your existing instruments and processes with the auditability
+      and reliability a lab actually needs, not a chatbot bolted on top.
 
   - icon  : tf-ion-ios-flask-outline
-    title : Chemistry & Biochemistry Automation
+    title : Laboratory Automation
     description : >
-      Automation of lab workflows including liquid handling, sample processing,
-      instrument control, and repetitive assay steps — reducing manual effort
-      and improving reproducibility.
+      Automation of chemistry and biochemistry workflows: liquid handling,
+      sample processing, instrument control, and repetitive assay steps,
+      sized to your throughput and budget, not a one-size-fits-all platform.
+
+  - icon  : tf-ion-ios-settings
+    title : Robotics Implementation
+    description : >
+      Robotic arms, end-effectors, motion control, and integration into lab
+      or bench workflows, with custom sensors, actuators, controllers, and
+      embedded systems built around your specific equipment and environment.
+
+  - icon  : tf-ion-ios-cog
+    title : Bespoke Lab Solutions
+    description : >
+      Full turnkey builds: measurement devices, engineering prototypes, and
+      complete instrument supply, sourced, configured, integrated, and
+      handed over as one working system from a single point of contact.
 
   - icon  : tf-ion-ios-pulse
     title : Data Processing & Analysis
     description : >
       Custom pipelines for capturing, cleaning, storing, and visualising
       measurement data from instruments, sensors, or lab equipment.
-
-  - icon  : tf-ion-ios-cog
-    title : On-Demand Instrument Setup
-    description : >
-      Full turnkey supply: sourcing, configuring, integrating, and handing over
-      a complete working instrument or system — so you get one point of contact
-      from spec to sign-off.
-
-  - icon  : tf-ion-ios-lightbulb-outline
-    title : AI Tool Implementation
-    description : >
-      Practical AI integration into lab and engineering processes — data
-      interpretation, workflow assistance, and decision support without
-      sacrificing reliability or auditability.
 
   - icon  : tf-ion-wrench
     title : Engineering Prototypes

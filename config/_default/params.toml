@@ -2,10 +2,10 @@ logo = "images/new-simpler-logo.png"
 logoInverse = "images/new-simpler-logo-inverse.png"
 home = "Home"
 menufixed = true
-description = "Hardware implementation, chemistry and biochemistry lab automation, data processing, and on-demand instrument setup from Lomond Robotics."
+description = "AI-harness implementation, laboratory automation, robotics implementation, and bespoke lab solutions from Lomond Robotics: right-sized systems for chemistry and biochemistry labs."
 author = "Lomond Robotics"
 
-footerDescription = "Hardware implementation, lab automation, data processing, and turnkey instrument supply for teams with practical technical problems to solve."
+footerDescription = "AI-harness implementation, laboratory automation, robotics implementation, and bespoke lab solutions for teams with practical technical problems to solve."
 footerServiceTitle = "Services"
 footerQuicklinkTitle = "Links"
 footerAboutTitle = "Lomond Robotics"
@@ -15,18 +15,20 @@ footerContactButton = "Contact"
 
 [hero]
 enable = true
-heading = "Hardware, lab automation, and data processing — built to your spec"
-description = "Lomond Robotics supplies, integrates, and builds custom systems for chemistry and biochemistry labs, engineering teams, and anyone who needs a complete working setup rather than a catalogue part."
+heading = "Lab automation, robotics, and AI implementation in laboratories, sized to your lab, not a catalogue platform"
+description = "Lomond Robotics builds and integrates custom systems for chemistry and biochemistry labs and engineering teams: practical AI-harness implementation, laboratory automation, robotics implementation, and bespoke lab solutions for anyone who needs a complete working setup rather than an oversized platform contract."
 videoThumb = "images/hero-placeholder.svg"
 videoURL = ""
 button = true
 btnText = "Discuss a project"
 btnURL = "contact/"
+loopHeading = "AI needs real data. Lab automation closes the loop."
+loopDescription = "Connect AI models to physical experiments, capture measurements, and feed the results back into the next decision."
 
 [aboutSm]
 enable = true
 title = "One contact from problem to working system"
-description = "I work with labs and engineering teams on hardware implementation, chemistry and biochemistry tool automation, data processing pipelines, and on-demand instrument supply — including full turnkey setups where you specify what you need and I deliver it ready to use."
+description = "I work with labs and engineering teams on AI-harness implementation, laboratory automation, robotics implementation, and bespoke lab solutions, including full turnkey setups where you specify what you need and I deliver it ready to use, at a scale that actually fits your lab."
 
 [subscription]
 enable = false
